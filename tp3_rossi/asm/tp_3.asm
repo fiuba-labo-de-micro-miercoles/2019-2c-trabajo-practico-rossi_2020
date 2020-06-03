@@ -13,6 +13,8 @@
 .org 0x0000
 			JMP main
 
+.org INT_VECTORS_SIZE
+
 main:
 
 		; Configuro el puerto B como salida
