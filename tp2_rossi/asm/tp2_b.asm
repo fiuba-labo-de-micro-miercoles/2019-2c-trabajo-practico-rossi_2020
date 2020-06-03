@@ -13,6 +13,7 @@ main:
 
 			LDI R16, (0<<0 | 1<<1) ; Configuro PB0 como entrada y PB1 como salida.
 			OUT DDRB, R16
+			CBI PORTB,salida ;aseguro que el programa arranque con el LED apagado.
 			SBI PORTB, entrada ; habilito la R de pullup interna del puerto de entrada.
 
 bajo:
