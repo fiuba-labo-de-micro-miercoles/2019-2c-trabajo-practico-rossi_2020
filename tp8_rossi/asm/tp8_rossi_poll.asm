@@ -74,7 +74,7 @@ config:
 	sts		UCSR0B, dummy
 
 	; inicializo puntero Z en la tabla con el mensaje a enviar
-;	set_pointer_z TABLA_ROM
+	set_pointer_z TABLA_ROM
 
 	; config timer para delay
 	ldi		dummy,0x01
